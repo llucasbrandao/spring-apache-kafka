@@ -14,7 +14,7 @@ import org.springframework.kafka.core.ProducerFactory;
 @Configuration
 public class KafkaProducerConfiguration {
 	
-	private static final String SERVER = "172.19.0.3:9092";
+	private static final String SERVER = "172.24.0.3:9092";
 	
 	@Bean
 	public ProducerFactory<String, String> producerFactory() {

@@ -26,6 +26,6 @@ public class KafkaServiceImpl implements KafkaService {
 	@Override
 	@KafkaListener(topics = TOPIC, groupId = GROUP_ID)
 	public void listen(String message) {
-		LoggerUtil.log(message, "info", this.getClass());
+		LoggerUtil.log("Mensagem Kafka: " + message, "info", this.getClass());
 	}
 }

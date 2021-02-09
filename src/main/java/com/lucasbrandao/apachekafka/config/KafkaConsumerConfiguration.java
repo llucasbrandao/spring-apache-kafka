@@ -16,7 +16,7 @@ import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 @Configuration
 public class KafkaConsumerConfiguration {
 	
-	private static final String SERVER = "172.19.0.3:9092";
+	private static final String SERVER = "172.24.0.3:9092";
 	private static final String GROUP_ID = "group-id";
 	
 	@Bean
