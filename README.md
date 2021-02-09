@@ -10,7 +10,7 @@
 
 ## How to
 Be aware that this project is only for testing purposes. <br>
-If you're willing to use it, change the two "SERVER" variables on
+If you're willing to use it, change the two "SERVER" variables in
 `./src/main/java/com/lucasbrandao/apachekafka/config/KafkaConsumerConfiguration.java` and `./src/main/java/com/lucasbrandao/apachekafka/config/KafkaProducerConfiguration.java` with your kafka server IP and Port.
 ## References
 
